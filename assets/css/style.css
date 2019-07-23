@@ -1,0 +1,27 @@
+body {
+    background-image: url("/assets/images/background_img_placeholder.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%,50%;   
+}
+
+#first-column {
+    margin: 10% auto;
+}
+
+#profile-pic {
+    height: 75%;
+    width: 75%;
+    margin: auto;
+}
+
+.nav-link {
+    font-size: 3vw;
+    color: gray; 
+}
+
+a:hover {
+    color: brown;
+}
+
+
+

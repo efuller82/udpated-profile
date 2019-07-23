@@ -1,5 +1,5 @@
 #home {
-    background-image: url("/assets/images/background_img_placeholder.jpg");
+    background-image: url("/assets/images/pond-gray.jpg");
     background-repeat: no-repeat;
     background-size: 100% 70%;
     
@@ -32,3 +32,25 @@ a:hover {
     line-height: 10vh;
 }
 
+.side-bar {
+    height: 100%;
+    position: fixed;
+}
+
+.main-content {
+    max-width: 60%; 
+    margin:auto; 
+}
+
+@media only screen and (max-width: 580px) {
+    .side-bar {
+        position: relative;
+    }
+    #home-page {
+        margin-top: 45%
+    }
+    .profile-card {
+        width: 50%;
+        margin: auto;
+    }
+}

@@ -48,6 +48,10 @@ a:hover {
     margin-top: 25%;
 }
 
+.form-group {
+    margin-top: 5%;
+}
+
 
 @media only screen and (max-width: 580px) {
     .side-bar {

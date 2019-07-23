@@ -11,35 +11,36 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body id="home">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6 col-md-4" id="first-column">
-                <div class="card">
-                    <img src="assets/images/slack-profile.gif" id="profile-pic">
-                    <div class="card-body">
-                        <h6 class="card-text">Eric Fuller</h6>
-                        <p class="card-text">Full Stack Developer</p>
-                    </div>
+<body>
+    <div class="row">
+        <div class="col-sm-3 fixed">
+            <div class="card">
+                <img src="assets/images/slack-profile.gif" id="profile-pic">
+                <div class="card-body">
+                    <h6 class="card-text">Eric Fuller</h6>
+                    <p class="card-text">Full Stack Developer</p>
                 </div>
             </div>
+            <ul class="nav flex-row vertical-nav flex-sm-column">
+                <li class="nav-item">
+                    <a class="nav-link active" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="samples.html">Samples</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+
         </div>
-        <div class="row">
-            <div class="col-12">
-                <ul class="nav nav-fill">
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Samples</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
+        <div class="col-sm-9 main-content">
+            main content
         </div>
     </div>
+
+
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -51,6 +52,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/javascript/script.js"></script>
+
 </body>
 
 </html>

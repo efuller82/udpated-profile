@@ -1,11 +1,12 @@
-body {
+#home {
     background-image: url("/assets/images/background_img_placeholder.jpg");
     background-repeat: no-repeat;
-    background-size: 100%,50%;   
+    background-size: 100% 70%;
+    
 }
 
 #first-column {
-    margin: 10% auto;
+    margin: 10% auto 5%;
 }
 
 #profile-pic {
@@ -23,5 +24,11 @@ a:hover {
     color: brown;
 }
 
+.sub-page-column {
+    margin-top: 5vh;
+}
 
+.vertical-nav {
+    line-height: 10vh;
+}
 

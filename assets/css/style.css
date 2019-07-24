@@ -18,7 +18,7 @@
 #profile-pic {
     height: 75%;
     width: 75%;
-    margin-left: 5%;
+    margin-left: 8%;
 }
 
 .nav-link {
@@ -64,6 +64,7 @@ a:hover {
     border-width: .5vw;
 }
 
+
 #contact-card-header {
     color: white;
     font-size: 2vw;
@@ -72,6 +73,10 @@ a:hover {
 
 #contact-card {
     margin: 10% 0;
+}
+
+#content-sample {
+    margin-left: 45%;
 }
 
 
@@ -87,4 +92,8 @@ a:hover {
         width: 50%;
         margin: auto;
     }
+    #content-sample {
+        margin: auto;
+    }
+
 }

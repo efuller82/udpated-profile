@@ -9,10 +9,16 @@
     margin: 10% auto 5%;
 }
 
-#profile-pic {
+#home-profile-pic {
     height: 75%;
     width: 75%;
     margin: 0 auto;
+}
+
+#profile-pic {
+    height: 75%;
+    width: 75%;
+    margin-left: 5%;
 }
 
 .nav-link {
@@ -54,7 +60,20 @@ a:hover {
 
 .card-sample {
     margin-top: 5%;
+    border-style: inset;
+    border-width: .5vw;
 }
+
+#contact-card-header {
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+}
+
+#contact-card {
+    margin: 10% 0;
+}
+
 
 
 @media only screen and (max-width: 580px) {
